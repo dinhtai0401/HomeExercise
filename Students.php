@@ -6,11 +6,12 @@
 class Students extends Person
 {
 
-  function __construct($fname, $lname, $yearOfBirth, $courses, $points)
+  function __construct($fname, $lname, $yearOfBirth, $age, $courses, $points)
   {
     $this->setFName($fname);
     $this->setLname($lname);
     $this->setYearOfBirth($yearOfBirth);
+    $this->setAge($age);
     $this->courses=$courses;
     $this->points=$points;
   }

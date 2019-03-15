@@ -6,11 +6,12 @@
 class Teachers extends Person
 {
 
-  function __construct($fname, $lname, $yearOfBirth, $subjects, $department)
+  function __construct($fname, $lname, $yearOfBirth, $age, $subjects, $department)
   {
     $this->setFName($fname);
     $this->setLname($lname);
     $this->setYearOfBirth($yearOfBirth);
+    $this->setAge($age);
     $this->subjects=$subjects;
     $this->department=$department;
   }
